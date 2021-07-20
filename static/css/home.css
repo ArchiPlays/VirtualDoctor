@@ -3,3 +3,14 @@ html {
     font-family: Helvetica, sans-serif, Arial;
 }
 
+body{
+    margin: 0 auto;
+   background-image: url("/Back-Text.png");
+}
+@media screen and (max-width:800px) {
+    body{
+        margin: 0 auto;
+        background-color: #fff;
+        background-image: none;
+    }
+   }
