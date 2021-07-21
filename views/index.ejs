@@ -5,23 +5,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chat Bot</title>
+    <title>VirtualDoctor</title>
 
     <link rel="stylesheet" href="static/css/chat.css">
     <link rel="stylesheet" href="static/css/home.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asap&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
     <!-- CHAT BAR BLOCK -->
     <div class="chat-bar-collapsible">
-        
+        <h1
+            style="top: 40%; left: 5%; position: absolute; color: white; width: 30%; font-size: 45px; font-family: Asap;">
+            Hey! Welcome to VirtualDoctor. A bot powered by DialogFlow.</h1>
+
         <div class="content">
             <div class="fcb">
                 <!-- Message Container -->
                 <div class="outer-container">
                     <div class="chat-container">
+                        <h2 style="color:#333; text-align: left; margin-left: 20px;">VirtualDoctor</h2>
                         <!-- Messages -->
                         <div id="chatbox">
                             <h5 id="chat-timestamp" class="ts"></h5>
@@ -37,7 +44,7 @@
                             </div>
 
                             <div class="chat-bar-icons">
-                             
+
                                 <i id="chat-icon" style="color: #333;" class="fa fa-fw fa-send"
                                     onclick="sendButton()"></i>
                             </div>

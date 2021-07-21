@@ -17,7 +17,7 @@ function getTime() {
 
 // Gets the first message
 function firstBotMessage() {
-    let firstMessage = "How's it going?"
+    let firstMessage = "Hey, welcome to VirtualDoctor!"
     document.getElementById("botStarterMessage").innerHTML = '<p class="botText"><span>' + firstMessage + '</span></p>';
 
     let time = getTime();
@@ -30,11 +30,16 @@ firstBotMessage();
 
 // Retrieves the response
 function getHardResponse(userText) {
-    let botResponse = getBotResponse(userText);
-    let botHtml = '<p class="botText"><span>' + botResponse + '</span></p>';
-    $("#chatbox").append(botHtml);
 
-    document.getElementById("chat-bar-bottom").scrollIntoView(true);
+    fetch('/getResponse?input=' + userText).then(res => res.json()).then(data => {
+        let botResponse = data.message;
+        let botHtml = '<p class="botText"><span>' + botResponse + '</span></p>';
+        $("#chatbox").append(botHtml);
+
+        document.getElementById("chat-bar-bottom").scrollIntoView(true);
+    })
+
+
 }
 
 //Gets the text text from the input box and processes it
@@ -54,7 +59,6 @@ function getResponse() {
     setTimeout(() => {
         getHardResponse(userText);
     }, 1000)
-
 }
 
 // Handles sending text via button clicks
