@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "healthbot-fhgf",
+  "private_key_id": "66102cc9fdbc84b8b79618f950e810fce806dce4",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDI0rfbEG65gasY\nJDB22fWm3VeBghIBdnYELPEEpVGxlBXH9J9aHJ/wyBEwg9fy9nV4bWZG+eUcB5jO\nP7S1NTdB+osRSM95zu3XGe129qF2bvv7xL7nB+WLkXWsypAwwOvTP7+wHsw+esMJ\niKZztFb9JJubdqI1UrfbubbquDtNqZ4TrYR4IThPPtXRUGn9BsXmuh6YY5d4McIk\nJIx3sl3bwYGfYI7E9aNAxdN9/uE90Esbn7g92KOkNneKZCragYMEhmEyeD7fWurV\nAKubtLkdTHCJLovqN+F5JOExspY2u0wEda/AX4bgXn8t2xpAnUzM8wPB59oIOHMZ\ncHM2JweNAgMBAAECggEAD2Do6ML+t6tRCYLmnd4IYcQxdJ7GojYKyOcSzeLwY+44\nfMd5gdJkrRulCqy4rMe9gdYJhFs+oEGKAhapeqGd9FTWBszR6+dcxKFyUy8vzidR\nmfDHGF9nxKMET+cd2PNCcTrrLaGDd9q5dNFyGF+HCdDz2Zk2yBPoNdCoS/EvxBKb\nuxeouTK/mHkVNQSNLwmpOf1deVGXqvTFAd7ayGasHu18OemWc3NFBm5SEpBw6yyb\nF3Q8QmmN5doeTdi0A+yttpVyQqJ0c4tLANcIeMVKItp0bDQ7ajIZOCqtnipo34AI\n2YJTZSsDdZE1HE7IPUCwcvCm7Q6livNczZSW5cGiQQKBgQDo5iZBqHHn+N3MQXBU\nEXAuoH0F3xYvP0pfBNBZgP4rilSTcStWLdSOsjo2fyMnBokCJAyll8Wf6PfP5hTa\nWz0BlldACQe+H6XhhK5QykwWfod4jLovVduLo7Vc48iDVYVbBG0Y75wknUK4WbL4\naa8msfNehCEoBSeXs49sBs/7EwKBgQDcvhYqSG80j1bRWCa04xPbX3mnwPepJX93\nL//DDXthGOSbpMww2hoeZmIZjL2fx1HY8nCa4RW4IavOrtWc1+u7wUVCNkHkjsBD\nutygM3YW6ipYOX8giVVcHIOgJYNsbFGJZ+5bq5LKbZUcYScVhwky+pGBcoq2JbTH\nwx8Zbb+m3wKBgQDIaw2u4NKsyfesRv/wCFWeelM8Uz7XB8LrQ8w7yYpwU4j2nKOr\ndKL+7Ra1QPEyKyiJ5BXSBmp1ctiWWqvFQFCeZg7NNzgnfzqTeEc9lOinTtkrfwbV\npy/X2dg/iHFLu7OXoJZ1p/SZeY8p717Y8LFePjJtOo0B0HXC0S1xy+b8awKBgCdi\nbvf6VoUNMhNF5BoQDeHtJfqNTmLKgvSUBtEZXbMUSu2OOLRapaBY6hXe65JPcMYB\nc5/emw5wS4Qj448JY1Dridzna1hJM/qho22d4Orzurxk/c6jUiyOFdoD92/n36Bh\nf8CxWw5tANbAasXHgxeqZz2uXxtinN+ra6gQ0coHAoGAURGw/oNV0BklegBwLOHd\nh92BGhbQcVhYHE2gbz3y6nfT6zUlarZx+Bmt2CQkTSuUWvbkZejL5HdYDlZi897Y\nRq3X+Uq2sO8jeduiYSSNG0zx4FxAra0ZNKLW10np3/jMs9UtkBjIWWt/QrTXAxYj\numijPTH2wae7jJh8b5VQ7CQ=\n-----END PRIVATE KEY-----\n",
+  "client_email": "virtualdoctor@healthbot-fhgf.iam.gserviceaccount.com",
+  "client_id": "113709901216636777112",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/virtualdoctor%40healthbot-fhgf.iam.gserviceaccount.com"
+}
