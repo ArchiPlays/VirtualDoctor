@@ -17,7 +17,7 @@ const sessionPath = sessionClient.projectAgentSessionPath(
     sessionId
 );
 
-process.env.GOOGLE_APPLICATION_CREDENTIALS = "./healthbot-fhgf-66102cc9fdbc.json"
+process.env.GOOGLE_APPLICATION_CREDENTIALS = "./healthbot.json"
 
 app.get('/', (req, res) => res.render('index'))
 app.get('/getResponse', async (req, res) => {
