@@ -5,7 +5,7 @@ const uuid = require('uuid')
 
 const app = express()
 
-app.listen(80, () => console.log("Listening on port 80"))
+app.listen(process.env.PORT || 5500, () => console.log("Listening on port 80"))
 
 const sessionId = uuid.v4();
 
