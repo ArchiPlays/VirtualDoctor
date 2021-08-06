@@ -1,5 +1,5 @@
 {
-  "name": "VirtualDoctor",
+  "name": "virtual-doctor",
   "version": "1.0.0",
   "description": "its a bot used to relive your stress in conditions",
   "main": "index.js",
